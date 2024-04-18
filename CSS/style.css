@@ -1,0 +1,529 @@
+:root{
+    --colprim: #24E9C5;
+    --colsec: #FFD452;
+    --fontprim: #051848;
+    --fontsec: #303030;
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 ;
+    color: var(--fontprim);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background-color: var(--colprim);
+    height: 100px;
+}
+.navbar .title {
+    font-weight: 700;
+    font-size: 32px;
+}
+.navbar .links span a {
+    text-decoration: none;
+    color: var(--fontprim);
+    padding: 0 15px;
+}
+.navbar .links span:nth-child(3){
+    font-weight: 700;
+}
+
+.navbar .links0 {
+    display: flex;
+    align-items: center;
+}
+.navbar .links0 span input {
+    height: 48px;
+    width: 320px;
+    margin-right: 30px;
+    background-color: #C1F9EF;
+    border-radius: 3px;
+    border: 1px solid #C1F9EF;
+    padding-left: 20px;
+}
+.navbar .links0 span a {
+    text-decoration: none;
+    color: var(--fontprim);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.body {
+    min-height: 416px;
+    margin: 100px;
+}
+
+/* login and register */
+.body .login {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.body .login .enter .title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #303030;
+    margin-bottom: 80px;
+}
+.body .login .enter input {
+    width: 600px;
+    height: 70px;
+    border: 1px solid #FFD88B;
+    background-color: #FFF4DE;
+    border-radius: 5px;
+}
+.body .login .enter button {
+    margin-top: 50px;
+    height: 50px;
+    width: 150px;
+    background-color: var(--colsec);
+    border: 1px solid var(--colsec);
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.body .login .enter button a {
+    color: var(--fontprim);
+    text-decoration: none;
+    padding: 15px 14px;
+}
+.body .login .enter button:hover {
+    box-shadow: 1px 1px 0px black;
+}
+/* login and register */
+
+
+/* homepage */
+.body .group1 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin-bottom: 100px;
+}
+.body .group1 h1 {
+    color: #775013;
+    font-size: 40px;
+    font-weight: 700;
+}
+.body .group1 p {
+    line-height: 32px;
+    color: var(--fontsec);
+    font-size: 16px;
+}
+.body .group1 button {
+    width: 155px;
+    height: 60px;
+    background-color: var(--colsec);
+    border: 1px solid var(--colsec);
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.body .group1 button a {
+    text-decoration: none;
+    color: var(--fontsec);
+    padding: 21px 19px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.body .group1 button:hover {
+    box-shadow: 1px 1px 0px black;
+}
+
+
+.body .group2 {
+    margin-bottom: 80px;
+}
+.body .group2 h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.body .group2 .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.body .group2 .cards div:nth-child(1) {
+    background-color: var(--colsec);
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+.body .group2 .cards div:nth-child(1) h3 {
+    line-height: 36px;
+    font-size: 24px;
+}
+.body .group2 .cards div:nth-child(1) p {
+    line-height: 30px;
+    font-size: 16px;
+}
+.body .group2 .cards div:nth-child(2) {
+    background-color: var(--colprim);
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+.body .group2 .cards div:nth-child(2) h3 {
+    line-height: 36px;
+    font-size: 24px;
+}
+.body .group2 .cards div:nth-child(2) p {
+    line-height: 30px;
+    font-size: 16px;
+}
+.body .group2 .cards div:nth-child(3) {
+    background-color: var(--colprim);
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+.body .group2 .cards div:nth-child(3) h3 {
+    line-height: 36px;
+    font-size: 24px;
+}
+.body .group2 .cards div:nth-child(3) p {
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+.body .group3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 80px;
+}
+.body .group3 .text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.body .group3 .text p {
+    font-size: 16px;
+    line-height: 32px;
+    padding-right: 20px;
+}
+
+
+.body .group4 {
+    margin-bottom: 80px;
+}
+.body .group4 .cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.body .group4 h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.body .group4 .text p {
+    font-size: 16px;
+    line-height: 32px;
+    padding-left: 20px;
+}
+/* homepage */
+
+
+/* search_user */
+.body h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.body .cases {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.body .cases .case {
+    border: 0.5px solid rgb(236, 234, 234);
+    height: 500px;
+    border-radius: 3px;
+    border-top: 5px solid var(--colsec);
+}
+.body .cases .case div {
+    padding-left: 40px;
+}
+.body .cases .case p:nth-child(1) {
+    font-size: 16px;
+    font-weight: 700;
+}
+.body .cases .case span {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.body .cases .case span a {
+    text-decoration: none;
+    color: #775013;
+}
+/* search_user */
+
+
+/* editprofil */
+.body .edit {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.body .mail div input {
+    width: 550px;
+    height: 70px;
+    border: 1px solid #FFD88B;
+    background-color: #FFF4DE;
+    border-radius: 5px;
+}
+.body .mail span {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}
+.body .mail span button {
+    margin-top: 50px;
+    height: 50px;
+    width: 150px;
+    background-color: var(--colsec);
+    border: 1px solid var(--colsec);
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.body .mail span button a {
+    color: var(--fontprim);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 14px 7px;
+
+}
+.body .mail span button:hover {
+    box-shadow: 1px 1px 0px black;
+}
+.body .mail span input{
+    border: 0px;
+    border-bottom:2px solid var(--colsec);    
+    padding-bottom: 10px;
+    width: 350px;
+    margin-left: 50px;
+}
+/* editprofil */
+
+
+/* profil */
+.body .profil {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    color: #000000;
+    gap: 20px;
+}
+
+.body .profil .moi .div1 {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+.body .profil .moi .div2 {
+    margin-top: 30px;
+}
+.body .profil .moi .div2 p {
+    font-weight: 600;
+}
+.body .profil .moi .div2 input {
+    width: 100%;
+    height: 150px;
+    border-radius: 3px;
+    border: 1px solid rgb(220, 210, 210);
+}
+.body .profil .moi .div2 button {
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
+    background-color: var(--colsec);
+    border: 1px solid var(--colsec);
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.body .profil .moi .div2 button a {
+    color: #303030;
+    text-decoration: none;
+    font-size: 14px;
+}
+.body .profil .moi .div3 {
+    margin-top: 30px;
+}
+.body .profil .moi .div3 h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.body .profil .moi .div3 .gbox .line {
+    height: 350px;
+    width: 3px;
+    background-color: var(--colsec);
+    margin-bottom: 200px;
+}
+.body .profil .moi .div3 .gbox .box:last-child{
+top: 0px;
+}
+.body .profil .moi .div3 .gbox .box:nth-child(2){
+    top: 150px;
+}
+.body .profil .moi .div3 .gbox .box:nth-child(3){
+    top: 300px;
+}
+.body .profil span:nth-child(1) {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.body .profil .abon {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.body .profil .abon .col {
+    display: flex;
+    border: 1px solid rgb(236, 235, 235);
+    border-left:5px solid var(--colsec);
+}
+.body .profil .abon div div {
+    display: flex;
+    flex-flow: column;
+    margin-left: 30px;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+/* profil */
+
+
+/* know_user */
+.knowuser .div1 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+}
+.knowuser .div1 img {
+    border: 4px solid var(--colsec);
+    border-radius: 3px;
+}
+.knowuser .div1 div h1 {
+    margin: 0;
+    margin-bottom: 30px;
+}
+.knowuser .div1 div p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.knowuser .div1 div button {
+    margin-top: 10px;
+    height: 50px;
+    width: 110px;
+    background-color: var(--colsec);
+    border: 1px solid var(--colsec);
+    border-radius: 3px;
+    font-weight: 600;
+}
+.knowuser .div1 div button a {
+    color: var(--fontprim);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 14px 25px;
+}
+.knowuser .div1 div button:hover {
+    box-shadow: 1px 1px 0px black;
+}
+
+.knowuser .div2 h2 {
+    text-align: center;
+    margin: 50px 0;
+
+}
+.gbox {
+    position: relative;
+}
+.gbox .line {
+    height: 500px;
+    width: 3px;
+    background-color: var(--colsec);
+    margin-bottom: 200px;
+}
+
+.gbox .box {
+    display: grid;
+    grid-template-columns: 5% 1fr;
+    margin-bottom: 50px;
+    position: absolute;
+}
+.gbox .box:last-child{
+    top: 0px;
+}
+.gbox .box:nth-child(2){
+    top: 150px;
+}
+.gbox .box:nth-child(3){
+    top: 300px;
+}
+.gbox .box:nth-child(4){
+    top: 450px;
+}
+.gbox .box .dat {
+    height: 74px;
+    width: 74px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid var(--colsec);
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 16px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.gbox .box .para{
+    border: 1px solid var(--colsec);
+    padding: 32px;
+}
+
+
+
+/* know_user */
+
+
+
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    gap: 200px;
+    background-color: var(--colprim);
+    width: 100%;
+    height: 290px;
+    align-items: center;
+    line-height: 32px;
+}
+.footer .part1 {
+    padding-left: 100px;
+}
+.footer .part1 p {
+    display: flex;
+    align-items: center;
+}
+.footer .part1 p img {
+    margin-right: 15px;
+}
+.footer div .titles {
+    font-size: 25px;
+    font-weight: 700;
+}
