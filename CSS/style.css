@@ -489,6 +489,7 @@ top: 0px;
 .gbox .box .para{
     border: 1px solid var(--colsec);
     padding: 32px;
+    line-height: 24px;
 }
 
 
